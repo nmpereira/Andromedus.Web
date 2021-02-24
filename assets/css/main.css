@@ -1896,15 +1896,19 @@
 	}
 
 		.flex.flex-2 {
-			-moz-justify-content: space-between;
-			-webkit-justify-content: space-between;
-			-ms-justify-content: space-between;
-			justify-content: space-between;
+			-moz-justify-content: space-around;
+			-webkit-justify-content: space-around;
+			-ms-justify-content: space-around;
+			justify-content: center ;
+			flex-wrap: wrap;
 		}
 
 			.flex.flex-2 article {
-				width: 50%;
+				width: 40%;
+				
 			}
+
+
 
 		@media screen and (max-width: 980px) {
 
